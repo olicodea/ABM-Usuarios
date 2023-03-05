@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Usuarios</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header class="header">
+            <h1>Usuarios</h1>
+        </header>
+        <main class="container">
+            <div class="card">
+                <form id="formulario" class="form">
+                    <input
+                        class="input-form"
+                        type="text"
+                        name="nombre"
+                        placeholder="Nombre"
+                    />
+                    <input
+                        class="input-form"
+                        type="text"
+                        name="email"
+                        placeholder="Email"
+                    />
+                    <input
+                        class="input-form"
+                        type="text"
+                        name="phone"
+                        placeholder="Teléfono"
+                    />
+                    <button type="submit" class="btn">Agregar</button>
+                </form>
+            </div>
+            <table id="table-usuarios" class="table d-none">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Email</th>
+                        <th>Teléfono</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </main>
+
+        <script src="app.js"></script>
+    </body>
+</html>

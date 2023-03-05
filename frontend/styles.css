@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+.header {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1.5rem;
+}
+
+.container {
+    padding: 10px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.card {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    padding: 20px 15px;
+    margin-bottom: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-form {
+    font-family: "Mulish", sans-serif;
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #b3b3b3;
+}
+
+.input-form:focus,
+.input-form:active {
+    outline: none;
+    border: 2px solid #939393;
+}
+
+.btn{
+    border: none;
+    border-radius: 5px;
+    padding: 15px 0;
+    background-color: #5663d6;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #4954bb;
+}
+
+.btn:active{
+    background-color: #5663d6;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #4caf50;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    font-variant-caps: all-small-caps;
+}
+
+th:first-child{
+    border-top-left-radius: 5px;
+    border-right: #fff 1px solid;
+}
+
+th:last-child{
+    border-top-right-radius: 5px;
+    border-left: #fff 1px solid;
+}
+
+tr:nth-child(even) {
+    background-color: hsla(122, 39%, 49%, 0.2);
+}
+
+.d-none{
+    display: none;
+}
